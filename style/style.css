@@ -1,0 +1,330 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: auto;
+}
+
+
+.conteiner {
+	display: block;
+	max-width: 1134px;
+	margin: auto;
+}
+
+.number {
+	height: 62px;
+	display: flex;
+	align-items: center;
+	border-bottom: solid 1px black;
+}
+
+.number_text {
+	font-size: 16px;
+}
+
+.number_btn {
+	display: inline-block;
+	text-align: center;
+	width: 190px;
+	background: #ffa019;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 15px;
+	margin-left: auto;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	text-decoration: none;
+
+	transition: background .1s linear;
+}
+
+.number_btn:hover {
+	background: #b66b00;
+} 
+
+.header {
+	display: flex;
+	align-items: center;
+	height: 62px;
+}
+
+.header_logo {
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.nav {
+	margin-left: auto;
+}
+
+.menu {
+	list-style-type: none;
+	display: flex;
+}
+
+.menu_item {
+	margin-right: 40px;
+}
+
+.menu_link { 
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+}
+
+.fon {
+	display: block;
+	background: url(image/intro.jpg) center no-repeat;
+	height: 753px;
+	background-size: cover;
+}
+
+.intro {
+	text-align: center;
+
+}
+
+.intro_logo {
+	font-size: 56px;
+	color: white;
+	font-weight: 100;
+	padding-top: 260px;
+}
+
+.intro_text {
+	color: white;
+	font-size: 20px;
+	width: 800px;
+	margin: auto;
+	font-weight: 100;
+	padding-top: 20px;
+}
+
+.intro_btn {
+	display: inline-block;
+	width: 138px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	background: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	border-radius: 10px;
+	text-decoration: none;
+	margin-top: 30px;
+}
+
+.priem {
+	display: block;
+	padding-top: 80px;
+}
+
+.priem_logo {
+	font-size: 34px;
+	font-weight: 100;
+}
+
+.item {
+	margin-top: 50px;
+	height: 150px;
+}
+
+.priem_item{
+	float: left;
+	padding-left: 40px;
+	padding-right: 60px;
+	text-align: center;
+
+}
+
+.priem_text {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.onas {
+	display: block;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.onas_logo {
+	font-size: 34px;
+	font-weight: 100;
+	padding-bottom: 50px;
+}
+
+.onas_text {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.email {
+	display: block;
+	background-size: cover;
+	background: #ffa019;
+}
+
+.email .conteiner {
+	display: flex;
+}
+
+.email_logo {
+	text-align: left;
+	color: white;
+	font-size: 18px;
+	width: 350px;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	line-height: 30px;
+}
+
+.email_name {
+	display: block;
+	border: solid 2px white;
+	width: 200px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	font-size: 14px;
+	text-align: left;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	color: white;
+}
+
+.email_email {
+	display: block;
+	border: solid 2px white;
+	width: 200px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 40px;
+
+	font-size: 14px;
+	text-align: left;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	color: white;
+}
+
+.email_btn {
+	display: block;
+	width: 200px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 40px;
+	background: white;
+	text-align: center;
+
+	font-size: 14px;
+	padding-top: 14px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+
+	transition: background .1s linear;
+}
+
+.email_btn:hover {
+	background: #ffc97d;
+}
+
+.ocob {
+	display: block;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+.ocob_logo {
+	font-size: 34px;
+	font-weight: 100;
+}
+
+.ocob_block{
+	display: flex;
+	margin-top: 65px;
+}
+
+.ocob_item {
+	padding-right: 150px;
+}
+
+.ocob_text {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.ocob_text2 {
+	font-size: 20px;
+	font-weight: 100;
+	padding-top: 40px;
+}
+
+.catalog {
+	background: #fbfbfb;
+	height: 550px;
+	width: 100%;
+	padding-top: 55px;
+}
+
+.nav_catal {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.catal_logo {
+	font-size: 34px;
+	font-weight: 100;
+}
+
+.menu_catal {
+	display: flex;
+  	align-items: flex-end;
+}
+
+.catal_item {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-weight: 100;
+	margin-left: 35px;
+	transition: background .1s linear;
+	display: block;
+	padding: 2px 8px;
+	border-radius: 10px;
+}
+
+.catal_item:hover {
+	display: block;
+	background: #ffa019;
+	color: white;
+	border-radius: 10px;
+	padding: 2px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
