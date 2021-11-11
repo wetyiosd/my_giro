@@ -375,6 +375,103 @@ body {
 	margin-bottom: 80px;
 }
 
+.consult_item {
+	display: flex;
+}
+
+.consult_block:not(:last-child) {
+	margin-right: 25px;
+
+}
+
+.cont_wrap {
+	display: flex;
+}
+
+.cons_img {
+	width: 165px;
+}
+
+.cons_block {
+	display: block;
+	background: #fbfbfb;
+	width: 195px;
+	height: 196px;
+}
+
+.cons_name {
+	display: block;
+	margin-top: 25px;
+	font-size: 20px;
+	margin-left: 30px;
+}
+
+.cons_text {
+	font-size: 12px;
+	font-style: italic;
+	margin-left: 30px;
+}
+
+.cons_btn {
+	display: block;
+	background: #ffa019;
+	border-radius: 10px;
+	padding: 9px 8px;
+	margin-top: 28px;
+	text-decoration: none;
+	color: white;
+	font-size: 10px;
+	text-transform: uppercase;
+	width: 83px;
+	text-align: center;
+	margin-left: 30px;
+}
+
+.brend {
+	display: block;
+	height: 175px;
+	background: #fbfbfb;
+}
+
+.brend_item {
+	display: flex;
+	text-align: center;
+}
+
+.brend_text {
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #9b9b9b;
+	font-weight: bold;
+	margin-left: 45px;
+	margin-top: 55px;
+}
+
+.info {
+	display: block;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.info_logo {
+	font-size: 34px;
+	font-weight: 100;
+	margin-bottom: 80px;
+}
+
+.info_item {
+	display: flex;
+}
+
+.info_block:not(:last-child) {
+	margin-right: 30px;
+
+}
+
+.info_img {
+	width: 260px;
+	filter:brightness(70%);
+}
 
 
 
