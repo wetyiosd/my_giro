@@ -425,7 +425,13 @@ body {
 	width: 83px;
 	text-align: center;
 	margin-left: 30px;
+
+	transition: background .1s linear;
 }
+
+.cons_btn:hover {
+	background: #b66b00;
+} 
 
 .brend {
 	display: block;
@@ -435,7 +441,12 @@ body {
 
 .brend_item {
 	display: flex;
-	text-align: center;
+	justify-content: center;
+}
+
+.brend_wrap {
+	display: block;
+	margin-top: 50px;
 }
 
 .brend_text {
@@ -443,8 +454,10 @@ body {
 	text-transform: uppercase;
 	color: #9b9b9b;
 	font-weight: bold;
-	margin-left: 45px;
-	margin-top: 55px;
+}
+
+.brend_text:not(:last-child) {
+	padding-right: 60px;
 }
 
 .info {
@@ -461,29 +474,102 @@ body {
 
 .info_item {
 	display: flex;
+	justify-content: space-between;
+	position: relative;
 }
 
-.info_block:not(:last-child) {
-	margin-right: 30px;
+.info_wrap {
+	position: relative;
+	display: inline-block;
 
 }
 
 .info_img {
 	width: 260px;
-	filter:brightness(70%);
+	display: block;
+
+	transition: filter .2s linear;
 }
 
+.info_text {
+	opacity: 0;
+	display: block;
+	position: absolute;
+	color: white;
+	top: 40%;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.5;
+	text-align: center;
+
+	transition: opacity .2s linear;
+}
+
+.info_wrap:hover .info_img {
+	filter: brightness(70%);
+}
+
+.info_wrap:hover .info_text {
+	opacity: 1;
+} 
 
 
+.polza {
+	display: block;
+	height: 320px;
+	background: #fbfbfb;
+}
 
+.polza_block {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 60px;
+}
 
+.polza_wrap {
+	display: block;
+	width: 350px;
 
+}
 
+.polza_text1 {
+	font-size: 14px;
+	margin-top: 25px;
+	color: #8191a6;
+}
 
+.polza_block2 {
+	display: flex;
+	margin-top: 60px;
+}
 
+.polza_logo {
+	color: #303842;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	width: 160px;
+}
 
+.polza_nav {
+	display: block;
+	width: 165px;
+}
 
+.polza_nav:not(:last-child) {
+	margin-right: 60px;
+}
 
-
+.polza_text2 {
+	display: block;
+	width: 150px;
+	text-decoration: none;
+	font-size: 14px;
+	margin-top: 2px;
+	color: #8191a6;
+	width: 160px;
+	padding-bottom: 3px;
+}
 
 
